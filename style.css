@@ -195,13 +195,22 @@ section h2 {
 }
 
 .support a {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--accent);
   color: var(--accent);
   font-weight: 500;
+  font-size: 0.85em;
   text-decoration: none;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 
 .support a:hover {
-  text-decoration: underline;
+  background: rgba(74, 158, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(74, 158, 255, 0.15);
 }
 
 footer {

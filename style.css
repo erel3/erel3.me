@@ -49,6 +49,12 @@ body {
   color: #7a8ba3; font-size: 0.95em;
 }
 
+/* Tech stack */
+.stack {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.stack img { height: 22px; }
+
 /* Project cards */
 .project {
   background: #0d0d14; border: 1px solid #1a1a2e; border-radius: 12px;
